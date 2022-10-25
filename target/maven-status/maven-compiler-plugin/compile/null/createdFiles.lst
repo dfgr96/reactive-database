@@ -1,0 +1,5 @@
+com/example/ExampleResource.class
+com/example/dto/RequestEntity.class
+com/example/data/RequestServiceImpl.class
+com/example/controllers/RequestController.class
+com/example/data/RequestService.class
