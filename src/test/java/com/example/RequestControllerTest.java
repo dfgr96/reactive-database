@@ -1,7 +1,7 @@
 package com.example;
 
 
-import com.example.data.RequestServiceImpl;
+import com.example.services.RequestServiceImpl;
 import com.example.dto.RequestEntity;
 import io.quarkus.test.junit.QuarkusTest;
 import io.quarkus.test.junit.mockito.InjectMock;

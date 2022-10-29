@@ -1,6 +1,6 @@
 package com.example.controllers;
 
-import com.example.data.RequestService;
+import com.example.services.RequestService;
 import com.example.dto.RequestEntity;
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
