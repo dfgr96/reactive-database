@@ -15,7 +15,7 @@ public class RequestServiceImpl implements RequestService{
 
     @Override
     public Multi<RequestEntity> findAll(MySQLPool mySQLPool){
-        return mySQLPool.query("select id, uid from test_database.request limit 10").execute()
+        return mySQLPool.query("select id, uid from test_database.request").execute()
                 .onItem().transformToMulti(set ->Multi.createFrom().iterable(set))
                 .onItem().transform(RequestServiceImpl::from);
     }
